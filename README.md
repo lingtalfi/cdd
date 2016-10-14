@@ -38,7 +38,7 @@ Documentation
 
 - s &lt;bookmark_name> -  Save the current directory as &lt;bookmark_name>
 - g &lt;bookmark_name> -  Go (cd) to the directory associated with &lt;bookmark_name>
-- o &lt;bookmark_name> -  Open the directory associated with &lt;bookmark_name>
+- o &lt;bookmark_name> -  Open (the finder window) and go (cd) the directory associated with &lt;bookmark_name>
 - p &lt;bookmark_name> -  Print the directory associated with &lt;bookmark_name>
 - d &lt;bookmark_name> -  Deletes the bookmark referenced by &lt;bookmark_name>
 - l -  List all available bookmarks

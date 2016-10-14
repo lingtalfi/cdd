@@ -66,9 +66,10 @@ function p {
 
 # open bookmark
 function o {
-	check_help $1
+    check_help $1
     source $configFile
     open "$(eval $(echo echo $(echo \$DIR_$1)))"
+    g $1        
 }
 
 # delete bookmark
